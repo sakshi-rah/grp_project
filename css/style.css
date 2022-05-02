@@ -13,11 +13,8 @@
     background-color: rgb(219, 84, 106);
 }
 .navbar {
-    background-color: rgb(102, 151, 80);
+    background-color: rgb(127, 147, 216);
     display: flex;
     flex-direction: row;
     justify-content: right;
-}
-body{
-    background-image: url(./css/img/ngo-pic.jpg);
 }
