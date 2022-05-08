@@ -1,0 +1,36 @@
+.nav-item {
+    background-color: black;
+    color: beige;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none ;
+    margin-left: 25px;
+}
+.nav-item:hover{
+    box-shadow: 3px 1px 5px rgb(128, 221, 104);
+    background-color: rgb(104, 111, 211);
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+#don{
+    background-color: green;
+    color: aliceblue;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 5px 20px 5px 20px;
+    border: none;
+    
+}
+#don:hover{
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgb(59, 56, 56);
+    background-color: brown;
+}
+
+
