@@ -9,8 +9,8 @@
     margin-left: 25px;
 }
 .nav-item:hover{
-    box-shadow: 3px 1px 5px rgb(128, 221, 104);
-    background-color: rgb(104, 111, 211);
+    box-shadow: 3px 1px 5px rgb(76, 211, 43);
+    background-color: rgb(185, 68, 47);
 }
 .navbar {
     display: flex;
@@ -31,6 +31,49 @@
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgb(59, 56, 56);
     background-color: brown;
+}
+.img-ngo{
+    height: 350px;
+    width: 550px;
+    border: 1px solid red; 
+    border-radius: 20px;
+    box-shadow: 3px 4px 9px rgb(218, 92, 92);
+}
+.img-ngo:hover{
+    box-shadow:5px 8px 15px black;
+    border-radius: 60px;
+    border: none;
+}
+b{
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+    margin-left: 120px;
+    padding: 10px;
+}
+.box{
+    border-radius: 10px;
+    box-shadow: 8px black ;
+    width: 45%;
+}
+.bg-class{
+    height: 380px;
+    width: 380px;
+    background-color: rgb(7, 156, 107);
+    text-align: center;
+    margin-left: 800px;
+    border-radius: 15px;
+    box-shadow: 4px 3px 6px black;
+    border: 2px solid white;
+   
+}
+.in-class{
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+    padding: 5px;
+    margin: auto;
+    width: 65%;
 }
 
 
