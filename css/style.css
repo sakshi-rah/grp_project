@@ -1,72 +1,74 @@
 .nav-item {
-    background-color: black;
-    color: beige;
+    color: rgb(0, 0, 0);
     padding: 8px;
     margin: 5px;
-    border-radius: 8px;
+    border-radius: 20px;
+    width: 100px;
     cursor: pointer;
     border: none ;
-    margin-left: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    
 }
+
 .nav-item:hover{
-    box-shadow: 3px 1px 5px rgb(76, 211, 43);
-    background-color: rgb(185, 68, 47);
+    box-shadow: 3px 1px 8px rgb(20, 22, 19);
+    background-color: rgb(77, 100, 231);
+    color: rgb(255, 255, 255);
 }
+
 .navbar {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    background-color: transparent;
 
 }
-#don{
-    background-color: green;
-    color: aliceblue;
-    padding: 10px;
-    margin: 3px;
-    border-radius: 5px 20px 5px 20px;
-    border: none;
-    
-}
-#don:hover{
-    border-radius: 50%;
-    box-shadow: 2px 2px 5px rgb(59, 56, 56);
-    background-color: brown;
-}
+
 .img-ngo{
-    height: 350px;
-    width: 550px;
-    border: 1px solid red; 
+    width: 400px;
     border-radius: 20px;
-    box-shadow: 3px 4px 9px rgb(218, 92, 92);
+    box-shadow: 3px 4px 9px rgb(119, 199, 223);
 }
+
 .img-ngo:hover{
-    box-shadow:5px 8px 15px black;
+    width: 600px;
+    box-shadow:5px 8px 15px rgb(0, 0, 0);
     border-radius: 60px;
     border: none;
+    transition: 0.5s ease-in;
 }
+
 b{
     text-align: center;
-    color: blue;
+    color: white;
     font-size: 20px;
-    margin-left: 120px;
     padding: 10px;
 }
+
 .box{
     border-radius: 10px;
     box-shadow: 8px black ;
     width: 45%;
 }
+
 .bg-class{
-    height: 380px;
-    width: 380px;
+    height: 450px;
+    width: 400px;
     background-color: rgb(7, 156, 107);
     text-align: center;
-    margin-left: 800px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 15px;
     box-shadow: 4px 3px 6px black;
     border: 2px solid white;
    
 }
+
 .in-class{
     border: 2px solid white;
     border-radius: 10px;
@@ -76,4 +78,16 @@ b{
     width: 65%;
 }
 
+i{
+    font-size: 50px;
+    color: black;
+    padding: 10px;
+}
 
+.para{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}

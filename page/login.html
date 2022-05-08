@@ -5,33 +5,23 @@
     </head>
 
     <style>
-        .btn{
-            background-image: linear-gradient (90deg, rgb(88, 141, 88) ,rgb(82, 157, 180));
-            text-align: center;
-            margin: 5px;
-            padding: 0px;
-        }
-        .btn-b1{
-            margin: 10px;
-            padding: 5px;
-            border-radius:8px;
-            border: 1px solid black;
-            color:white;
-            background-image: linear-gradient(200deg,blue,red);
-        }
-
+        
         h1{
             text-align: center;
         }
+
         p{
             text-align: center;
         }
+
         .change-cl{
             text-align: center;
         }
+
         .btn2{
             text-align: center;
         }
+
         body{
             background-image: url('login.jpg');
             background-repeat: no-repeat;
@@ -40,61 +30,57 @@
 
     </style>
 
-    <body>
-    
-        <div class="form-bg" >
-        
-            <form style="background-image: linear-gradient( 120deg ,rgb(160, 179, 161),rgb(203, 203, 236),rgb(194, 217, 218), #ccacac); 
-                height: 450px; width: 400px; border-radius: 20px 85px 20px 85px; margin-left: 80px; margin-top: 30px; border: 2px solid black; border-radius: 20px;" > 
+<body>
+    <div class="container col-sm-8 col-lg-4 col-xs-12 col-md-4">
+        <div class="row">
+            <div class="form-bg" >
+            
+                <form style="background-image: linear-gradient( 120deg ,rgb(160, 179, 161),rgb(203, 203, 236),rgb(194, 217, 218), #ccacac); 
+                    height: 450px; width: 400px; border-radius: 20px 85px 20px 85px; margin-left: 80px; margin-top: 30px; border: 2px solid black; border-radius: 20px;" > 
 
-                <div class="container col-sm-8 col-lg-4 col-xs-12 col-md-4">
-                    <div class="row">
-                        <caption> 
-                            <H1>Login Form</H1>
-                        </caption>
+                    <div class="container col-sm-8 col-lg-4 col-xs-12 col-md-4">
+                        <div class="row">
+                            <caption> 
+                                <H1>Login Form</H1>
+                            </caption>
 
-                        <div class="btn"> 
-                            <button class="btn-b1">Login</button>        
-                            <button class="btn-b1">Signup</button>
+                            <br> 
+
+                            <div class="change-cl">
+                                <input type="text" placeholder="Email Address" style=" padding: 8px; border-radius: 5px; 
+                                    border: none; box-shadow: 2px 3px 5px rgb(53, 51, 51); width: 60%;">
+
+                                <br> <br> <br>
+
+                                <input type="password" placeholder="Password" style=" padding: 8px; border-radius: 5px; 
+                                    border: none; box-shadow: 2px 3px 5px rgb(53, 51, 51); width: 60%;"> 
+
+                                <br> <br>
+
+                                <b style="cursor: pointer; color: rgb(153, 8, 57);">Forget Password?</b> 
+
+                                <br><br><br>
+
+                                <a href="./../index.html">
+                                    <button style="padding: 5px; margin: 5px; width: 30%; border: none; border-radius: 15px;box-shadow:2px 1px 5px rgb(20, 7, 7);
+                                        background: rgb(116, 73, 73); color: aliceblue; cursor: pointer;" type="button"> 
+                                        Login
+                                    </button>
+                                </a> 
+                            </div> 
+
+                            <br>
+
+                            <p> Not a member?
+                                <a href="signup.html">signup now</a> 
+                            </p>
+
                         </div>
-
-                        <br> 
-
-                        <div class="change-cl">
-                            <input type="text" placeholder="Email Address" style=" padding: 8px; border-radius: 5px; 
-                                border: none; box-shadow: 2px 3px 5px rgb(53, 51, 51); width: 60%;">
-
-                            <br> <br> <br>
-
-                            <input type="password" placeholder="Password" style=" padding: 8px; border-radius: 5px; 
-                                border: none; box-shadow: 2px 3px 5px rgb(53, 51, 51); width: 60%;"> 
-
-                            <br> <br>
-
-                            <b style="cursor: pointer; color: rgb(153, 8, 57);">Forget Password?</b> 
-
-                            <br><br><br>
-
-                            <a href="./../index.html">
-                                <button style="padding: 5px; margin: 5px; width: 30%; border: none; border-radius: 15px;box-shadow:2px 1px 5px rgb(20, 7, 7);
-                                    background: rgb(116, 73, 73); color: aliceblue; " type="button"> 
-                                    Login
-                                </button>
-                            </a> 
-                        </div> 
-
-                        <br>
-
-                        <p> Not a member?
-                            <a href="signup.html">signup now</a> 
-                        </p>
-
                     </div>
-                </div>
+                    
+                </form>
                 
-            </form>
-             
-        </div>
+            </div>
 
     </body>
 </html>
