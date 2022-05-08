@@ -9,8 +9,8 @@
     margin-left: 25px;
 }
 .nav-item:hover{
-    box-shadow: 3px 1px 5px rgb(128, 221, 104);
-    background-color: rgb(104, 111, 211);
+    box-shadow: 3px 1px 5px rgb(76, 211, 43);
+    background-color: rgb(185, 68, 47);
 }
 .navbar {
     display: flex;
@@ -46,7 +46,7 @@
 }
 b{
     text-align: center;
-    color: rgba(43, 12, 156, 0.664);
+    color: blue;
     font-size: 20px;
     margin-left: 120px;
     padding: 10px;
